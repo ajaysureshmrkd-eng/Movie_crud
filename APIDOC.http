@@ -1,0 +1,37 @@
+# api call for listig
+
+###
+GET  http://127.0.0.1:8000/movie/
+Accept: application/json
+
+
+# api call for adding
+
+###
+POST http://127.0.0.1:8000/movie/
+Content-Type: application/json
+
+{
+        "title":"Drishyam",
+        "language" :"Malayalam",
+        "year" :2013,
+        "run_time ":170
+}
+
+# api call for detail
+
+###
+GET http://127.0.0.1:8000/movie/2/
+Accept: application/json
+
+
+#api call for update
+
+
+
+
+# api call for delete
+###
+DELETE http://127.0.0.1:8000/movie/5/
+Accept: application/json
+
